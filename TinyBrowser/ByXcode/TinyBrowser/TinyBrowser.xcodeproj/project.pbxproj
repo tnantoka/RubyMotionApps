@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BCFEE86155C1B4E000D36B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCFEE85155C1B4E000D36B3 /* UIKit.framework */; };
+		9BCFEE88155C1B4E000D36B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCFEE87155C1B4E000D36B3 /* Foundation.framework */; };
+		9BCFEE8A155C1B4E000D36B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCFEE89155C1B4E000D36B3 /* CoreGraphics.framework */; };
+		9BCFEE90155C1B4E000D36B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BCFEE8E155C1B4E000D36B3 /* InfoPlist.strings */; };
+		9BCFEE92155C1B4E000D36B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFEE91155C1B4E000D36B3 /* main.m */; };
+		9BCFEE96155C1B4E000D36B3 /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFEE95155C1B4E000D36B3 /* TBAppDelegate.m */; };
+		9BCFEE99155C1B4E000D36B3 /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCFEE98155C1B4E000D36B3 /* TBViewController.m */; };
+		9BCFEE9C155C1B4E000D36B3 /* TBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCFEE9A155C1B4E000D36B3 /* TBViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BCFEE81155C1B4E000D36B3 /* TinyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCFEE85155C1B4E000D36B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BCFEE87155C1B4E000D36B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BCFEE89155C1B4E000D36B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BCFEE8D155C1B4E000D36B3 /* TinyBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinyBrowser-Info.plist"; sourceTree = "<group>"; };
+		9BCFEE8F155C1B4E000D36B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BCFEE91155C1B4E000D36B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BCFEE93155C1B4E000D36B3 /* TinyBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinyBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		9BCFEE94155C1B4E000D36B3 /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
+		9BCFEE95155C1B4E000D36B3 /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
+		9BCFEE97155C1B4E000D36B3 /* TBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBViewController.h; sourceTree = "<group>"; };
+		9BCFEE98155C1B4E000D36B3 /* TBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
+		9BCFEE9B155C1B4E000D36B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCFEE7E155C1B4E000D36B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCFEE86155C1B4E000D36B3 /* UIKit.framework in Frameworks */,
+				9BCFEE88155C1B4E000D36B3 /* Foundation.framework in Frameworks */,
+				9BCFEE8A155C1B4E000D36B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BCFEE76155C1B4E000D36B3 = {
+			isa = PBXGroup;
+			children = (
+				9BCFEE8B155C1B4E000D36B3 /* TinyBrowser */,
+				9BCFEE84155C1B4E000D36B3 /* Frameworks */,
+				9BCFEE82155C1B4E000D36B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCFEE82155C1B4E000D36B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCFEE81155C1B4E000D36B3 /* TinyBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCFEE84155C1B4E000D36B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BCFEE85155C1B4E000D36B3 /* UIKit.framework */,
+				9BCFEE87155C1B4E000D36B3 /* Foundation.framework */,
+				9BCFEE89155C1B4E000D36B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BCFEE8B155C1B4E000D36B3 /* TinyBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				9BCFEE94155C1B4E000D36B3 /* TBAppDelegate.h */,
+				9BCFEE95155C1B4E000D36B3 /* TBAppDelegate.m */,
+				9BCFEE97155C1B4E000D36B3 /* TBViewController.h */,
+				9BCFEE98155C1B4E000D36B3 /* TBViewController.m */,
+				9BCFEE9A155C1B4E000D36B3 /* TBViewController.xib */,
+				9BCFEE8C155C1B4E000D36B3 /* Supporting Files */,
+			);
+			path = TinyBrowser;
+			sourceTree = "<group>";
+		};
+		9BCFEE8C155C1B4E000D36B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BCFEE8D155C1B4E000D36B3 /* TinyBrowser-Info.plist */,
+				9BCFEE8E155C1B4E000D36B3 /* InfoPlist.strings */,
+				9BCFEE91155C1B4E000D36B3 /* main.m */,
+				9BCFEE93155C1B4E000D36B3 /* TinyBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCFEE80155C1B4E000D36B3 /* TinyBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCFEE9F155C1B4E000D36B3 /* Build configuration list for PBXNativeTarget "TinyBrowser" */;
+			buildPhases = (
+				9BCFEE7D155C1B4E000D36B3 /* Sources */,
+				9BCFEE7E155C1B4E000D36B3 /* Frameworks */,
+				9BCFEE7F155C1B4E000D36B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyBrowser;
+			productName = TinyBrowser;
+			productReference = 9BCFEE81155C1B4E000D36B3 /* TinyBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BCFEE78155C1B4E000D36B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TB;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9BCFEE7B155C1B4E000D36B3 /* Build configuration list for PBXProject "TinyBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BCFEE76155C1B4E000D36B3;
+			productRefGroup = 9BCFEE82155C1B4E000D36B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCFEE80155C1B4E000D36B3 /* TinyBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCFEE7F155C1B4E000D36B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCFEE90155C1B4E000D36B3 /* InfoPlist.strings in Resources */,
+				9BCFEE9C155C1B4E000D36B3 /* TBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BCFEE7D155C1B4E000D36B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCFEE92155C1B4E000D36B3 /* main.m in Sources */,
+				9BCFEE96155C1B4E000D36B3 /* TBAppDelegate.m in Sources */,
+				9BCFEE99155C1B4E000D36B3 /* TBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BCFEE8E155C1B4E000D36B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCFEE8F155C1B4E000D36B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BCFEE9A155C1B4E000D36B3 /* TBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCFEE9B155C1B4E000D36B3 /* en */,
+			);
+			name = TBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BCFEE9D155C1B4E000D36B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BCFEE9E155C1B4E000D36B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BCFEEA0155C1B4E000D36B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinyBrowser/TinyBrowser-Prefix.pch";
+				INFOPLIST_FILE = "TinyBrowser/TinyBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BCFEEA1155C1B4E000D36B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinyBrowser/TinyBrowser-Prefix.pch";
+				INFOPLIST_FILE = "TinyBrowser/TinyBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BCFEE7B155C1B4E000D36B3 /* Build configuration list for PBXProject "TinyBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCFEE9D155C1B4E000D36B3 /* Debug */,
+				9BCFEE9E155C1B4E000D36B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCFEE9F155C1B4E000D36B3 /* Build configuration list for PBXNativeTarget "TinyBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCFEEA0155C1B4E000D36B3 /* Debug */,
+				9BCFEEA1155C1B4E000D36B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BCFEE78155C1B4E000D36B3 /* Project object */;
+}
